@@ -1,135 +1,136 @@
 .event-planner-container {
-    max-width: 100vw;
-    height: auto;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background: linear-gradient(135deg, #fee6f0 25%, transparent 25%) -50px 0,
-                linear-gradient(225deg, #fee6f0 25%, transparent 25%) -50px 0,
-                linear-gradient(315deg, #fee6f0 25%, transparent 25%),
-                linear-gradient(45deg, #fee6f0 25%, transparent 25%);
-    background-size: 100px 100px; /* Adjust the size based on the pattern */
-  }
-  
-  header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .description p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  
-  .get-started-button {
-    background-color: #f85199;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .get-started-button:hover {
-    background-color: #d32b74;
-  }
-  
-  .features,
-  .testimonials,
-  .contact,.events_categories {
-    margin-top: 50px;
-  }
-  
-  .features h2,
-  .testimonials h2,
-  .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .features ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .features ul li {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-  }
-  
-  .testimonial {
-    margin-bottom: 20px;
-  }
-  
-  .testimonial p {
-    font-style: italic;
-  }
-  
-  .testimonial .author {
-    font-weight: bold;
-  }
-  
-  .contact form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact input,
-  .contact textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
-  }
-  
-  .contact textarea {
-    height: 150px;
-  }
-  
-  .submit-button {
-    background-color: #f85199;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .submit-button:hover {
-    background-color: #d32b74;
-  }
-  
-  footer {
-    margin-top: 50px;
-    font-size: 0.9rem;
-  }
-  
-  .events_categories h1{
-    background-color: gray;
-    text-align: center;
-  }
-.events_categories{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    
+  max-width: 100vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background:
+    linear-gradient(135deg, #fee6f0 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #fee6f0 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #fee6f0 25%, transparent 25%),
+    linear-gradient(45deg, #fee6f0 25%, transparent 25%);
+  background-size: 100px 100px; /* Adjust the size based on the pattern */
 }
-.events_categories ul{
-    background-color: rgba(0,0,0,0.2);
-    width: 270px;
-    /* padding: 0 10px; */
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
-  .events_categories ul h2{
-    background-color: #e46a9d;
-    text-align: center;
-    padding: 5px 10px;
-    color: white;
-  }
-  .events_categories ul li{
-    list-style-type: none;
-    font-size: 1.1rem;
-    line-height: 24px;
-  }
+
+.description p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.get-started-button {
+  background-color: #f85199;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  background-color: #d32b74;
+}
+
+.features,
+.testimonials,
+.contact,
+.events_categories {
+  margin-top: 50px;
+}
+
+.features h2,
+.testimonials h2,
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.testimonial .author {
+  font-weight: bold;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact textarea {
+  height: 150px;
+}
+
+.submit-button {
+  background-color: #f85199;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #d32b74;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 0.9rem;
+}
+
+.events_categories h1 {
+  background-color: gray;
+  text-align: center;
+}
+.events_categories {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.events_categories ul {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 270px;
+  /* padding: 0 10px; */
+}
+.events_categories ul h2 {
+  background-color: #e46a9d;
+  text-align: center;
+  padding: 5px 10px;
+  color: white;
+}
+.events_categories ul li {
+  list-style-type: none;
+  font-size: 1.1rem;
+  line-height: 24px;
+}
